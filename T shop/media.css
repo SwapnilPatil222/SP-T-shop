@@ -1,0 +1,9 @@
+@media (max-width:768px) {
+    .navbar h2 {
+        height: 100px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}

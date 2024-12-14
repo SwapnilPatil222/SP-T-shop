@@ -1,0 +1,436 @@
+*
+{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;                             
+}
+.menubar
+{
+    height: 70px;
+    width: 100%;
+    background-color: white; 
+    border: 1px solid black;
+    display: flex;
+}
+.tshop {
+    height: 70px;
+    width: 12%;
+    background-color: #D6FF38;
+    
+}
+.new{
+    height: 65px;
+    width: 25%; 
+    line-height: 65px;
+    text-align: center;
+    color: black;
+    transition: 0.4s;
+}
+.new a{
+    text-decoration:  none;
+    font-size: 20px; 
+    color: black;
+}
+.new:hover{
+    background-color: black;
+}
+.new:hover a{
+  color:  #D6FF38;
+}
+.women{
+    height: 65px;
+    width: 25%; 
+    line-height: 65px;
+    text-align: center;
+    transition: 0.4s;
+    
+}
+.women a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.women:hover{
+    background-color: black;
+}
+.women:hover a{
+  color:  #D6FF38;
+}
+.man{
+    height: 65px;
+    width: 25%; 
+    line-height: 65px;
+    text-align: center; 
+    transition: 0.4s;
+}
+.man a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.man:hover{
+    background-color: black;
+}
+.man:hover a{
+  color:  #D6FF38;
+}
+.login{
+    height: 65px;
+    width: 25%; 
+    line-height: 65px;
+    text-align: center; 
+    font-size: 25px;
+   
+}
+.login a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.menu1{
+    height: 70px;
+    width: 12%;
+    background-color: #D6FF38;
+    line-height: 70px;
+    border: 1px solid black;
+}
+.menu1 h2{
+    color: black;
+    font-size: 25px;
+}
+.menu2{
+    height: 70px;
+    width: 88%;
+    display: flex;
+}
+.menu3{
+    height: 70px;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+}
+.home{
+    height: 30px;
+    width: 95%;
+    /* background-color: #D6FF38; */
+    margin:auto ;
+    margin-top: 1%;
+    align-items: center;
+}
+.home a{
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.home i{
+    font-size: 22px;
+    text-align: center;   
+}
+.maincontain{
+    height: 220px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    margin-top: 4%;
+}
+.maincontain .woman h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    float:right;
+    margin-top: 9%;
+    margin-right: 0%;
+    padding-right: 552%;
+}
+.con{
+    height:480px;
+    width: 80%;
+    /* background-color: yellow; */
+    margin: auto;   
+}
+.con h2{
+    font-size: 40px;
+    margin-left: 113%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brs{
+    height: 490px;
+    width: 20%;
+    /* background-color: rgb(151, 197, 113); */
+  
+}
+.brs h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.con a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rcm{
+    height: 20px;
+    width: 75%;
+    /* background-color: #d6ff38; */
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rcm a{
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.photos {
+    height: 410px;
+    width: 75%;
+    margin: auto;
+    margin-left: 18.5%;
+    /* background-color: aqua;   */
+}
+.imshirt{
+    display: flex;
+    justify-content: space-between;
+}
+.imshirt1{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt2{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt3{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt4{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w4.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt1 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.imshirt2 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.imshirt3 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.imshirt4 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.photos2 {
+    height: 430px;
+    width: 75%;
+    margin: auto;
+    margin-left: 18.5%;   
+    /* background-color: rgb(185, 28, 28); */
+}
+.imshirt{
+    display: flex;
+    justify-content: space-between;
+}
+.imshirt5{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w5.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.imshirt6{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w6.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt7{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w7.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt8{
+    height: 320px;
+    width: 21%;
+    background-image: url('images/w8.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imshirt5 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 131%;
+    font-weight: lighter;
+}
+.imshirt5 .d{
+    width: 30%;
+    height: 10%;
+    background-color: #0a0a0a;
+    color: #D6FF38;
+}
+.imshirt5 .d h1{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6FF38;
+    background-color: #0a0a0a;
+    padding:5px 20px;
+}
+.imshirt6 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.imshirt7 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.imshirt8 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 142%;
+    font-weight: lighter;
+}
+.footer{
+   
+    height: 280PX;
+    width: 100%;
+    background-color: #d6ff38;
+    display: flex;
+}
+.get h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    height: 280px;
+    width: 30%;
+    background-color: rgb(13, 13, 13);
+}
+.aboutus{
+    height: 280px;
+    width: 70%;
+    background-color: white;
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;  
+}
+.aboutus a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.about h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+    color: rgb(251, 249, 249);
+    text-align: left;
+    margin-left: 33%;
+}
+ .about h3{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 33%;
+}
+.wix{
+    height: 70px;
+    width: 100%;
+    background-color: #0a0a0a;
+    display: flex;
+}
+.wix .logo{
+    height: 70px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 65px;
+}
+.wix .logo i{
+    font-size: 25px;
+}
+.wix .wi{
+    height: 70px;
+    width: 70%;
+    margin-top: 0%;
+    float: right;
+    border: 1px solid black;
+}
+.wi h2{
+    height:70px;
+    width: 100%;
+    align-items: center;
+    line-height: 60px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: #d6ff38 ;
+    float: right;  
+    margin-top: 0%; 
+}
+
